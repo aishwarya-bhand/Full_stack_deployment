@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 5000;
 
 app.get("/", (req, res) => {
   res.json({
-    message: "Hello from Backend 🚀",
+    message: "CI CD pipeline working🚀",
     environment: process.env.NODE_ENV || "development"
   });
 });
